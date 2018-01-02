@@ -1,0 +1,131 @@
+html, body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden; 
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.topContent{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	background-color: black;
+}
+
+.topRightSec{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+.logo{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding-right: 10em;
+	font-size: 1.5em;
+	color: white;
+
+	cursor: pointer;
+}
+
+.topLeftSec{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+.menu{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.menuList{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	font-size: 1.2em;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.mainContent{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.mainLeftContent{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.mainRightContent{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#ball{
+	padding-right: 50px; 
+	padding-top: 200px;
+}
+
+.header{
+	
+}
+
+
+.footer{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
